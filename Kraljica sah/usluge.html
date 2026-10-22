@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usluge | Kraljica šah</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="min-h-screen flex flex-col bg-black text-white">
+    <header class="sticky top-0 z-50 bg-black border-b border-gray-800">
+      <div
+        class="max-w-5xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center gap-3"
+      >
+        <a
+          href="index.html"
+          class="flex items-center gap-3 text-xl font-bold text-yellow-400 hover:text-yellow-300"
+        >
+          <img src="slike/kraljica.svg" class="w-10 h-10" alt="" />
+          Kraljica šah
+        </a>
+        <nav class="flex gap-6 text-sm md:text-base font-medium">
+          <a
+            href="index.html"
+            class="pb-1 border-b-2 border-transparent text-white hover:text-yellow-300 hover:border-yellow-300"
+            >Naslovnica</a
+          >
+          <a
+            href="usluge.html"
+            aria-current="page"
+            class="pb-1 border-b-2 border-yellow-400 text-yellow-400"
+            >Usluge</a
+          >
+          <a
+            href="kontakt.html"
+            class="pb-1 border-b-2 border-transparent text-white hover:text-yellow-300 hover:border-yellow-300"
+            >Kontakt</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="bg-black">
+        <div
+          class="max-w-5xl mx-auto px-4 py-12 md:py-16 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left"
+        >
+          <div>
+            <h1 class="text-3xl md:text-5xl font-bold text-yellow-400 mb-4">
+              Usluge i informacije
+            </h1>
+            <p class="text-lg text-gray-300 max-w-xl">
+              Pogledaj što nudimo, kada se održavaju termini i koliko stoji
+              članarina.
+            </p>
+          </div>
+          <img
+            src="slike/ploca.svg"
+            class="w-24 h-24 md:w-32 md:h-32 rounded-lg border-4 border-yellow-400 shrink-0"
+            alt="Šahovska ploča"
+          />
+        </div>
+      </section>
+
+      <section class="bg-yellow-400 text-black">
+        <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+          <h2 class="text-2xl md:text-3xl font-bold mb-8">
+            Tečajevi i raspored
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <article
+              class="flex flex-col bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:border-black hover:shadow-lg transition"
+            >
+              <h3 class="text-lg font-semibold mb-2">Za početnike</h3>
+              <p class="text-gray-600 mb-4">
+                Učimo osnovna pravila, kretanje figura i prve strategije igre.
+                Dobrodošli su svi, od djece od 7 godina do odraslih.
+              </p>
+              <dl
+                class="mt-auto pt-4 border-t border-gray-200 text-sm grid grid-cols-2 gap-2"
+              >
+                <div>
+                  <dt class="text-gray-500">Termin</dt>
+                  <dd class="font-semibold">Pon i sri, 16–18</dd>
+                </div>
+                <div>
+                  <dt class="text-gray-500">Cijena</dt>
+                  <dd class="font-semibold">30 EUR mjesečno</dd>
+                </div>
+              </dl>
+            </article>
+
+            <article
+              class="flex flex-col bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:border-black hover:shadow-lg transition"
+            >
+              <h3 class="text-lg font-semibold mb-2">Priprema za natjecanja</h3>
+              <p class="text-gray-600 mb-4">
+                Pripremamo se za turnire te učimo napredne strategije i
+                otvaranja. Godine nisu važne, važna je volja za učenjem.
+              </p>
+              <dl
+                class="mt-auto pt-4 border-t border-gray-200 text-sm grid grid-cols-2 gap-2"
+              >
+                <div>
+                  <dt class="text-gray-500">Termin</dt>
+                  <dd class="font-semibold">Uto i čet, 16–19</dd>
+                </div>
+                <div>
+                  <dt class="text-gray-500">Cijena</dt>
+                  <dd class="font-semibold">40 EUR mjesečno</dd>
+                </div>
+              </dl>
+            </article>
+
+            <article
+              class="flex flex-col bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:border-black hover:shadow-lg transition"
+            >
+              <h3 class="text-lg font-semibold mb-2">Slobodna igra</h3>
+              <p class="text-gray-600 mb-4">
+                Uz članarinu dobivaš pristup našim stolovima s ugrađenim
+                satovima. Igraj protiv juniora, seniora ili prijatelja.
+              </p>
+              <dl
+                class="mt-auto pt-4 border-t border-gray-200 text-sm grid grid-cols-2 gap-2"
+              >
+                <div>
+                  <dt class="text-gray-500">Termin</dt>
+                  <dd class="font-semibold">Pon–pet 16–19, sub 9–12</dd>
+                </div>
+                <div>
+                  <dt class="text-gray-500">Cijena</dt>
+                  <dd class="font-semibold">20 EUR mjesečno</dd>
+                </div>
+              </dl>
+            </article>
+
+            <article
+              class="flex flex-col bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:border-black hover:shadow-lg transition"
+            >
+              <h3 class="text-lg font-semibold mb-2">Blitz šah</h3>
+              <p class="text-gray-600 mb-4">
+                Igraš brzu partiju s manje vremena nego uobičajeno i učiš
+                donositi točne odluke pod pritiskom.
+              </p>
+              <dl
+                class="mt-auto pt-4 border-t border-gray-200 text-sm grid grid-cols-2 gap-2"
+              >
+                <div>
+                  <dt class="text-gray-500">Termin</dt>
+                  <dd class="font-semibold">Pon i čet, 18–19</dd>
+                </div>
+                <div>
+                  <dt class="text-gray-500">Cijena</dt>
+                  <dd class="font-semibold">25 EUR mjesečno</dd>
+                </div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-black">
+        <div class="max-w-5xl mx-auto px-4 py-12 md:py-16">
+          <h2 class="text-2xl md:text-3xl font-bold text-yellow-400 mb-8">
+            Kako se upisati?
+          </h2>
+          <ol class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <li class="bg-gray-900 border border-gray-800 rounded-lg p-6">
+              <span
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-yellow-400 text-black font-bold mb-4"
+                >1</span
+              >
+              <h3 class="text-lg font-semibold mb-2">Pošalji prijavu</h3>
+              <p class="text-gray-400">
+                Ispuni kratki obrazac na stranici Kontakt.
+              </p>
+            </li>
+            <li class="bg-gray-900 border border-gray-800 rounded-lg p-6">
+              <span
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-yellow-400 text-black font-bold mb-4"
+                >2</span
+              >
+              <h3 class="text-lg font-semibold mb-2">Dođi na prvi sat</h3>
+              <p class="text-gray-400">Prvi sat je besplatan i bez obveze.</p>
+            </li>
+            <li class="bg-gray-900 border border-gray-800 rounded-lg p-6">
+              <span
+                class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-yellow-400 text-black font-bold mb-4"
+                >3</span
+              >
+              <h3 class="text-lg font-semibold mb-2">Plati članarinu</h3>
+              <p class="text-gray-400">
+                Članarina se plaća mjesečno, na početku mjeseca.
+              </p>
+            </li>
+          </ol>
+          <a
+            href="kontakt.html"
+            class="inline-block bg-yellow-400 text-black font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300"
+            >Prijavi se</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-950 text-gray-300 border-t border-gray-800">
+      <div
+        class="max-w-5xl mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-6 text-sm"
+      >
+        <div>
+          <p class="font-bold text-yellow-400 mb-2">Kraljica šah</p>
+          <p>Šahovski klub od 2009.</p>
+        </div>
+        <div>
+          <p class="font-semibold text-white mb-2">Adresa</p>
+          <p>Trg kraljeva 1, 48000 Koprivnica</p>
+        </div>
+        <div>
+          <p class="font-semibold text-white mb-2">Radno vrijeme</p>
+          <p>Radnim danom 16–19</p>
+          <p>Subotom 9–12</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
